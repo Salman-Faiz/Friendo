@@ -9,7 +9,7 @@ export default {
       center: true,
       padding: "1rem",
     },
-    extend: {
+    extend: { 
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
