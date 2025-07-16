@@ -1,12 +1,14 @@
-import Header from "../components/common/Header";
+import { Link } from "react-router-dom";
+
 import { useAuth } from "../Hooks/useAuth";
 const HomePage = () => {
      const {auth} = useAuth();
      console.log(auth)
      return (
           <div className="text-red-300 text-3xl">
-               <Header/>
-              home
+    
+              <h1>home</h1>
+              <Link to={'/me'}>go to profile</Link>
           </div>
      );
 };
