@@ -34,7 +34,7 @@ const LoginPage = () => {
           <div className="w-full p-8 sm:p-12 lg:w-1/2">
             <div className="mb-8 text-center lg:text-left">
               <h2 className="text-3xl font-bold text-white">Sign In</h2>
-              <p className="text-gray-400">Access your social world</p>
+              <p className="text-gray-400">Access your social world...</p>
             </div>
 
             <LoginForm />
