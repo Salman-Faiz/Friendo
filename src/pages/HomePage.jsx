@@ -13,11 +13,6 @@ const HomePage = () => {
               <h1 className="bg-slate-600 pt-13">my naame is asif</h1>
               <h1 className="bg-slate-600 pt-13">my naame is asif</h1>
               <Link to={'/me'}>go to profile</Link>
-              <div>1</div>
-              <div>2</div>
-              <div>3</div>
-              <div>4</div>
-              <div>5</div>
           </div>
           
      );
